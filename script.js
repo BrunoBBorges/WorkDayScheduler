@@ -135,3 +135,61 @@ $('#5pmbox').ready(function() {
     
 });
 
+//save events to local storage
+
+var nineamPlan = document.querySelector('#9ambox');
+
+nineamPlan.addEventListener('input', function(event) {
+    localStorage.setItem('nineamPlan', nineamPlan.innerhtml)
+});
+
+var tenamPlan = document.querySelector('#10ambox');
+
+tenamPlan.addEventListener('input', function(event) {
+    localStorage.setItem('tenamPlan', tenamPlan.innerhtml)
+});
+
+var elevenamPlan = document.querySelector('#11ambox');
+
+elevenamPlan.addEventListener('input', function(event) {
+    localStorage.setItem('elevenamPlan', elevenamPlan.innerhtml)
+});
+
+var twelvepmPlan = document.querySelector('#12pmbox');
+
+twelvepmPlan.addEventListener('input', function(event) {
+    localStorage.setItem('twelvepmPlan', twelvepmPlan.innerhtml)
+});
+
+var onepmPlan = document.querySelector('#1pmbox');
+
+onepmPlan.addEventListener('input', function(event) {
+    localStorage.setItem('onepmPlan', onepmPlan.innerhtml)
+});
+
+var twopmPlan = document.querySelector('#2pmbox');
+
+onepmPlan.addEventListener('input', function(event) {
+    localStorage.setItem('twopmPlan', twopmPlan.innerhtml)
+});
+
+var threepmPlan = document.querySelector('#3pmbox');
+
+threepmPlan.addEventListener('input', function(event) {
+    localStorage.setItem('threepmPlan', threepmPlan.innerhtml)
+});
+
+var fourpmPlan = document.querySelector('#4pmbox');
+
+onepmPlan.addEventListener('input', function(event) {
+    localStorage.setItem('fourpmPlan', fourpmPlan.innerhtml)
+});
+
+var fivepmPlan = document.querySelector('#5pmbox');
+
+fivepmPlan.addEventListener('input', function(event) {
+    localStorage.setItem('fivepmPlan', fivepmPlan.innerhtml)
+});
+
+
+
