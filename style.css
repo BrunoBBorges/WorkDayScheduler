@@ -30,6 +30,16 @@ textarea{
   border-radius: 15px;
 }
 
+.timeLabel {
+  margin-left: 10%;
+  
+}
+
+input {
+  width: 80%;
+  height: 100px;
+}
+
 .row {
   white-space: pre-wrap;
   height: 80px;
